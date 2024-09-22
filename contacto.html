@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Virtual</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>I<span>C</span></h2>
+                </div>
+                <label class="toggle-menu" for="menu_hamburguesa">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list_icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                    </svg>
+                </label>
+                <input type="checkbox" id="menu_hamburguesa" class="menu_hamburguesa">
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="a_cerca.html">Perfil</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="curriculum.html">Curriculum</a></li>
+                    <li><a class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>Contacto</h2>
+            <p>
+                Ya sea que tengas preguntas, comentarios o simplemente quieras ponerte en contacto, estoy aquí para ayudarte. 
+            </p>
+            <h3>Datos de Contacto</h3>
+            <ul class="lista-form">
+                <li>Nombre: Ignacio Nicolas Caprara</li>
+                <li>Mail: capraraignacio@gmail.com</li>
+                <li>Pais: Argentina</li>
+            </ul>
+            <h3>Formulario</h3>
+            <form class="formulario">
+                <div class="form-group">
+                    <input type="text" name="nombre de usuario" placeholder="Nombre Completo" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" name="telefono" placeholder="Número de Teléfono" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Correo Electrónico" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>© Derechos Reservados</p>
+    </footer>
+</body>
+</html>
