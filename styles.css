@@ -291,8 +291,8 @@ footer {
 @media screen and (max-width: 750px) {
 
     .wrapper {
-        min-height: 100vh; /* Permite que el contenedor crezca */
-        overflow-y: auto; /* Permite desplazamiento vertical */
+        min-height: 100vh; 
+        overflow-y: auto; 
     }
 
     .menu {
